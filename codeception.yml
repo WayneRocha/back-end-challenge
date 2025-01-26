@@ -6,8 +6,7 @@ suites:
         modules:
             enabled:
                 - REST:
-                    # url: http://localhost:8000/exchange
-                    url: https://8000-waynerocha-backendchall-jhpro2ols9k.ws-us117.gitpod.io/exchange
+                    url: http://localhost:8000/exchange
                     depends: PhpBrowser
 
 paths:
